@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2f5f9;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.container {
+  padding-top: 116px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 416px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.card img {
+  border-radius: 15px 15px 0 0;
+}
+
+.card .text {
+  margin: 32px 0;
+  padding: 0 24px 24px;
+  border-bottom: 1px solid #f2f5f9;
+  position: relative;
+}
+
+.card .text::before {
+  content: "";
+  background: url(./assets/white-overlay.svg) no-repeat center center;
+  top: -80px;
+  position: absolute;
+  max-width: 420px;
+  height: 70px;
+  left: 0;
+  width: 100%;
+}
+
+.card .text h1 {
+  max-width: 303px;
+  margin-bottom: 16px;
+  color: #111729;
+}
+
+p {
+  color: #677489;
+  max-width: 346px;
+}
+
+.creator {
+  padding: 0 24px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.creator img {
+  border-radius: 100%;
+  width: 100%;
+  max-width: 40px;
+  border: 4px solid rgba(103, 116, 137, 0.1);
+}
+
+span {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #677489;
+}
